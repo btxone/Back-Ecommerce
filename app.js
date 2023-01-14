@@ -4,11 +4,11 @@ const express = require('express');
 // const productRouter = require('./routes/product')
 
  const mercadoPagoRouter = require('./mercadoPagoRouter')
-const morgan = require('morgan')
+
 const server = express();
 
 
-server.use(morgan("dev"));
+
 
 
 
