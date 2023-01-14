@@ -3,7 +3,7 @@ const express = require('express');
 
 // const productRouter = require('./routes/product')
 
- const mercadoPagoRouter = require('./routes/mercadoPago')
+ const mercadoPagoRouter = require('./mercadoPagoRouter')
 const morgan = require('morgan')
 const server = express();
 
