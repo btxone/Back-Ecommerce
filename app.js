@@ -1,5 +1,6 @@
 const express = require('express');
 
+
 // const productRouter = require('./routes/product')
 
  const mercadoPagoRouter = require('./routes/mercadoPago')
@@ -8,6 +9,7 @@ const server = express();
 
 
 server.use(morgan("dev"));
+
 
 
 

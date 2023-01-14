@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const server = require('./app')
+const app = require('./app')
 // const dbConnect = require('./db')
 // server.use(morgan("dev"));
 
@@ -8,7 +8,7 @@ const server = require('./app')
 
 const PORT =  3002;
 
-server.listen(PORT, () => {
+app.listen(PORT, () => {
   console.log(`Servidor escuchando en puerto ${PORT}`)
 });
 
