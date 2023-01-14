@@ -1,6 +1,6 @@
 const express = require('express');
 
-const productRouter = require('./routes/product')
+// const productRouter = require('./routes/product')
 // const categoryRouter = require('./routes/category')
 // const userRouter = require('./routes/user')
 // const reviewsRouter = require('./routes/reviews')
@@ -20,7 +20,7 @@ server.use(express.urlencoded({ extended: true }));
 
 server.use('/', mercadoPagoRouter)
 
-server.use('/', productRouter)
+// server.use('/', productRouter)
 
 
 
