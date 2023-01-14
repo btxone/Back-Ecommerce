@@ -9,7 +9,7 @@
  const createPreference = async (req, res) => {
      let preference = {
          back_urls: {    
-             success: 'http://localhost:3000/success',
+             success: 'success',
          },
          items: [
              {
