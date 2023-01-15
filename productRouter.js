@@ -1,3 +1,4 @@
+const mongoose = require("mongoose")
  const express = require('express');
  const productSchema = require('./models/product');
  const { products } = require('./Product');
@@ -35,7 +36,6 @@
      .then((data)=>res.json(data))
      .catch((err)=> res.json({message: err}));
  });
-
  
 
  module.exports = router;

@@ -1,6 +1,7 @@
 require('dotenv').config();
 
 const app = require('./app')
+
  const dbConnect = require('./db')
 // server.use(morgan("dev"));
 
