@@ -11,6 +11,9 @@ console.log(process.env.MONGODB)
 
 const PORT = process.env.PORT ||  3002;
 
+
+
+
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en puerto ${PORT}`)
 });

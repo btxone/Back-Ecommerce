@@ -1,6 +1,6 @@
 
 const express = require('express');
-
+const cors = require('cors')
 const productRouter = require('./routes/productRouter')
 const categoryRouter = require('./routes/category')
 const userRouter = require('./routes/user')
@@ -14,6 +14,7 @@ const server = express();
 
 server.use(express.json());
 // server.use(express.urlencoded({ extended: true }));
+server.use(cors({origin: 'https://back-ecommerce.up.railway.app'}))
 
 server.use('/', productRouter)
 
