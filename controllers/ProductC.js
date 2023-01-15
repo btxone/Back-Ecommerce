@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
- const productSchema = require('./models/product')
+ const productSchema = require('../models/product')
  const products = async (req,res) => {  
      const { name } = req.query    
      const allProducts = await productSchema.find({})

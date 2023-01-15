@@ -1,7 +1,7 @@
 
  const express = require('express');
- const productSchema = require('./models/product');
- const { products } = require('./ProductC');
+ const productSchema = require('../models/product');
+ const { products } = require('../controllers/ProductC');
 
  const router = express.Router();
 

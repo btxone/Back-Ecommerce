@@ -2,9 +2,9 @@
 const express = require('express');
 
 
-const productRouter = require('./productRouter')
+const productRouter = require('./routes/productRouter')
 
- const mercadoPagoRouter = require('./mercadoPagoRouter')
+ const mercadoPagoRouter = require('./routes/mercadoPagoRouter')
 
 const server = express();
 
