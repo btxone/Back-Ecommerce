@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 const app = require('./app')
-// const dbConnect = require('./db')
+ const dbConnect = require('./db')
 // server.use(morgan("dev"));
 
 
@@ -12,4 +12,4 @@ app.listen(PORT, () => {
   console.log(`Servidor escuchando en puerto ${PORT}`)
 });
 
-// dbConnect();
+ dbConnect();
